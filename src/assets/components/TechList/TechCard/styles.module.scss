@@ -1,0 +1,39 @@
+.tech{
+    background-color: var(--grey-4);
+    margin: 0.5rem;
+    padding: 1.5rem;
+    border-radius: 3px;
+
+}
+
+.tech_infos{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 0.5rem;
+}
+
+.tech_buttons{
+    
+    &>button{
+        border:none;
+        background-color: transparent;
+        color:var(--grey-0) ;
+        cursor: pointer;
+        padding-left: 0.5rem;
+    }
+}
+
+
+@media (min-width:769px) {
+    .tech{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .tech_infos{
+        justify-content: end;
+        gap:0.5rem;
+    }
+}

@@ -1,0 +1,57 @@
+.divContainer{
+    border-bottom: 2px solid var(--grey-2);
+}
+
+.dashPage_top{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    width: clamp(17.5rem, 45.614vw + 8.947rem, 50rem);
+    margin:0 auto;
+    align-items: center;
+
+    .logo{
+        color:var(--color-primary);
+    }
+
+    .btn{
+        text-decoration: none;
+        padding: 0.5rem 1.2rem;
+        background-color: var(--grey-3);
+        border: none;
+        border-radius: 3px;
+        cursor: pointer;
+    }
+}
+
+.dashPage_middle{
+    display: flex;  
+    gap:1.5rem;
+    flex-direction: column;
+    width: clamp(17.5rem, 45.614vw + 8.947rem, 50rem);
+    margin:0 auto;
+    padding-block:2rem;
+}
+
+.dashPage_bottom{
+    display: flex;
+    gap:1.5rem;
+    flex-direction: column;
+    width: clamp(17.5rem, 45.614vw + 8.947rem, 50rem);
+    margin:0 auto;
+    padding-block:2rem;
+}
+
+.techs_header{
+    display: flex;
+    justify-content: space-between;
+
+    &>button{
+        border:none;
+        cursor: pointer;
+        background-color: var(--grey-2);
+        color: var(--grey-0);
+        padding: 0.3rem 0.5rem;
+        border-radius: 3px;
+    }
+}
