@@ -9,3 +9,6 @@ For this project, I used an API provided by Kenzie Academy, that can be found in
 - [x] user page with the possibility to register new technologies, update or delete them 
 
 
+See the project working <a href="react-delta-ten.vercel.app"> here </a>
+
+![kenziehub1](https://github.com/user-attachments/assets/77fae142-44f6-4b57-9374-412f1c3b228c)
