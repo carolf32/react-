@@ -1,6 +1,6 @@
 # KenzieHub (Registration and login)
 
-This was a Kenzie Academy's challenge, made with React, SASS for customization, Toastify library for the popups, Zod for validation and Axios for the integration with the API. 
+This was a Kenzie Academy's challeng. Eeach person who register has a page and can add new technologies in it. This page can only be acessed by its owner. Made with React, SASS for customization, Toastify library for the popups, Zod for validation and Axios for the integration with the API. 
 For this project, I used an API provided by Kenzie Academy, that can be found in <a href="https://kenziehub.herokuapp.com"> this </a> public URL: <a href="https://kenziehub.herokuapp.com"> this </a>
 
 ## Features
